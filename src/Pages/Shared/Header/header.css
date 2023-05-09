@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+nav .nav-logo {
+    height: 5rem;
+    width: 5rem;
+}
+
+nav .nav-logo img {
+    width: 100%;
+}
+
+nav .nav-link a {
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    color: #8395a7;
+    transition: all 0.4s;
+}
+
+nav .nav-link a.active,
+nav .nav-link a:hover {
+    color: #222f3e;
+}
