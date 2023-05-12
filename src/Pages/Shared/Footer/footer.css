@@ -1,9 +1,6 @@
 .footer {
     padding: 10rem 15rem;
     background-color: #222f3e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: #fff;
 }
 
@@ -28,4 +25,16 @@
 
 .footer-link li a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+    .footer {
+        padding: 1rem 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        padding: 1rem;
+    }
 }

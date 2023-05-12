@@ -56,3 +56,14 @@ main {
 span {
     color: #48dbfb;
 }
+
+@media screen and (max-width: 768px) {
+    .banner {
+        height: 100%;
+        flex-direction: column-reverse;
+        padding-top: 7rem;
+    }
+    .left-side, .right-side {
+        width: 100%;
+    }
+}

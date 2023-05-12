@@ -27,6 +27,23 @@ section {
 
 /* Components */
 
+.grid {
+    display: grid;
+    gap: 3rem;
+}
+
+.col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .btn {
     outline: none;
     border: none;
@@ -67,4 +84,26 @@ section {
     font-size: 3rem;
     margin-bottom: 2rem;
     text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+    section, main {
+        margin-top: 5rem;
+        padding: 1rem 5rem;
+    }
+    .col-3,
+    .col-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section, main {
+        margin-top: 3rem;
+        padding: 1rem;
+    }
+    .grid {gap: 2rem;}
+    .col-2,
+    .col-3,
+    .col-4 {grid-template-columns: repeat(1, 1fr);}
 }

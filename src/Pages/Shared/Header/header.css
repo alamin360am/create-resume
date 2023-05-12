@@ -33,3 +33,14 @@ nav .nav-link a:hover {
     color: #222f3e;
 }
 
+@media screen and (max-width: 991px) {
+    nav {
+        padding: 1rem 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 1rem;
+    }
+}
