@@ -1,10 +1,11 @@
 import React from 'react';
+import './about.css'
 
 const About = () => {
     return (
-        <div>
+        <section>
             about
-        </div>
+        </section>
     );
 };
 

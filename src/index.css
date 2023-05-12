@@ -16,4 +16,55 @@ body {
     font-size: 1.6rem;
     font-weight: 400;
     color: #222f3e;
+    position: relative;
+}
+
+section {
+    margin-top: 7rem;
+    padding: 2rem 10rem;
+}
+
+/* Components */
+
+.btn {
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #341f97;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.btn-primary:hover {
+    border-radius: 8px;
+    background: #2a1979;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid #341f97;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.btn-outline:hover {
+    border-radius: 8px;
+    background: #2a1979;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.heading-primary {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
 }

@@ -1,0 +1,54 @@
+main {
+    margin-top: 7rem;
+    padding: 2rem 10rem;
+}
+
+.section-home {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Banner */
+
+.banner {
+    height: calc(100vh - 7rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side, .right-side {
+    padding: 4rem;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side {
+    background-color: #54a0ff;
+}
+
+.right-side {
+    background-color: #5f27cd;
+
+}
+
+.banner-title {
+    font-size: 3.6rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.right-side ul li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.right-side ul li .icon {
+    margin-right: 1rem;
+    color: #ffbe0b;
+    font-size: 1.6rem;
+}
