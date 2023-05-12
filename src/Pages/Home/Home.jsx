@@ -16,11 +16,11 @@ const Home = () => {
                 <div className="right-side">
                     <h2 className="heading-primary">You can create -</h2>
                     <ul>
-                        <li><FontAwesomeIcon icon={faCheck} className='icon'/>Beautiful Resume/CV within a minute.</li>
-                        <li><FontAwesomeIcon icon={faCheck} className='icon'/>A4 size and PDF formate available</li>
-                        <li><FontAwesomeIcon icon={faCheck} className='icon'/>100% Online editable</li>
-                        <li><FontAwesomeIcon icon={faCheck} className='icon'/>Easy to Download</li>
-                        <li><FontAwesomeIcon icon={faCheck} className='icon'/><span>Free</span> to cost</li>
+                        <li><FontAwesomeIcon icon={faCheck} className='icon'/><span>Beautiful</span> Resume/CV within a minute.</li>
+                        <li><FontAwesomeIcon icon={faCheck} className='icon'/><span>A4</span> size and PDF formate available.</li>
+                        <li><FontAwesomeIcon icon={faCheck} className='icon'/><span>100%</span> Online editable.</li>
+                        <li><FontAwesomeIcon icon={faCheck} className='icon'/><span>Easy</span> to Download.</li>
+                        <li><FontAwesomeIcon icon={faCheck} className='icon'/><span>Free</span> to cost.</li>
                     </ul>
                 </div>
             </div>

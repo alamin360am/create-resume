@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
@@ -59,7 +60,6 @@ section {
 }
 
 .btn a {
-    text-decoration: none;
     color: #fff;
 }
 
